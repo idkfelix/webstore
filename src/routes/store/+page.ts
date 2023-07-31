@@ -2,7 +2,7 @@ import type { PageLoad } from "./$types"
 import { error } from "@sveltejs/kit";
 
 export const load = (async ({fetch, url}) => {
-  const limit = Number(url.searchParams.get('limit')) || 15
+  const limit = Number(url.searchParams.get('limit')) || 18
   const skip = Number(url.searchParams.get('skip')) || 0
   const query = url.searchParams.get('q')
 

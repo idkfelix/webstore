@@ -15,8 +15,8 @@
   export let data:any
 </script>
 
-<main class="h-screen py-6 px-20 flex flex-col gap-6 text-white font-anon scroll-smooth">
-  <nav class="min-h-28 flex flex-col">
+<main class="h-screen py-6 px-36 flex flex-col gap-6 text-white font-anon scroll-smooth">
+  <nav class="min-h-28 flex flex-col mb-8">
     <div class="h-24 flex flex-row w-full justify-between">
       <Locale/>
       <a href="/"><img class="w-40 h-20 my-auto" src={logo} alt=""/></a>
